@@ -95,7 +95,8 @@ def fill_csv(df, text_list):
             elif "Salutation:" in line:
                 df.at[row, "Salutation"] = next
             elif "Address:" in line:
-                df.at[row, "Address"] = next
+                address = next + "\n" + text_list[i + 2]
+                df.at[row, "Address"] = address
             elif "Email:" in line:
                 df.at[row, "Email"] = next
             elif "Filter:" in line:
