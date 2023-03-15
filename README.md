@@ -10,8 +10,9 @@ The script of this repository extracts specific data from PDF files and writes i
 The script is executed from the command line. The PDF file path is passed as an argument. The extracted data is saved to a CSV file with the same name as the PDF file, in the same directory using the following code:
 ```
 python pdf_extractor.py /path/to/pdf/file.pdf
+
 ```
-![Screenshot from 2023-03-13 01-48-40](https://user-images.githubusercontent.com/73304837/224581671-93d92326-f2f3-485d-bf74-8f4fe2e226d9.png)
+![Screenshot from 2023-03-13 04-07-15](https://user-images.githubusercontent.com/73304837/225383807-b17961fc-c9f5-4700-9a6f-6ca6361329db.png)
 
 ## Requirements
 This script requires the following libraries:
